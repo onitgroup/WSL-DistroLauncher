@@ -1,13 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2036
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "launcher", "DistroLauncher\DistroLauncher.vcxproj", "{BA627106-E5F7-46EE-B8D7-2D5A760F2FB2}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DistroLauncher-Appx", "DistroLauncher-Appx\DistroLauncher-Appx.vcxproj", "{F63472F9-D0A0-412E-AA3D-A4E822970486}"
 	ProjectSection(ProjectDependencies) = postProject
 		{BA627106-E5F7-46EE-B8D7-2D5A760F2FB2} = {BA627106-E5F7-46EE-B8D7-2D5A760F2FB2}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{832A1010-3D4B-4F0E-9330-A7A7F6D6047F}"
+	ProjectSection(SolutionItems) = preProject
+		build x64 release.bat = build x64 release.bat
 	EndProjectSection
 EndProject
 Global
